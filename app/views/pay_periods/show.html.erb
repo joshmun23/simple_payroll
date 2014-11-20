@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @pay_period.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @pay_period.end_date %>
+</p>
+
+<p>
+  <strong>Total hours worked:</strong>
+  <%= @pay_period.total_hours_worked %>
+</p>
+
+<p>
+  <strong>Gross wages:</strong>
+  <%= @pay_period.gross_wages %>
+</p>
+
+<p>
+  <strong>Total deductions:</strong>
+  <%= @pay_period.total_deductions %>
+</p>
+
+<p>
+  <strong>Net wages:</strong>
+  <%= @pay_period.net_wages %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pay_period.name %>
+</p>
+
+<p>
+  <strong>Employee:</strong>
+  <%= @pay_period.employee_id %>
+</p>
+
+<%= link_to 'Edit', edit_pay_period_path(@pay_period) %> |
+<%= link_to 'Back', pay_periods_path %>
