@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+  resources :pay_periods
+
   resources :employees
 
   root "employees#index"
+
+  get 'payroll', to: 'pay_periods#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
