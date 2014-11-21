@@ -11,22 +11,14 @@ gem 'less-rails'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
-
+gem 'unicorn'
+gem 'twitter-bootstrap-rails'
+gem 'simple_form'
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'unicorn'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-
-gem 'twitter-bootstrap-rails'
-gem 'simple_form'
 
 group :test, :development do
   gem 'rspec-rails'
