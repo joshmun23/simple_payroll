@@ -1,3 +1,3 @@
 class Employee < ActiveRecord::Base
-  has_many :pay_periods
+  has_many :paychecks
 end
