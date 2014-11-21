@@ -175,7 +175,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   factory_girl_rails
   jbuilder (~> 2.0)
-  jquery-rails (= 3.0.4)
+  jquery-rails
   launchy
   less-rails
   pg
