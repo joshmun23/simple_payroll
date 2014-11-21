@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  *= require bootstrap_and_overrides
+
+ *= require jquery
+ *= require jquery_ujs
  */
 
-#= require jquery
-#= require jquery_ujs
+
