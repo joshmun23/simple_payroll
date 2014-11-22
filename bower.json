@@ -1,0 +1,19 @@
+{
+  "name": "simple_payroll",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joshmun23/simple_payroll",
+  "authors": [
+    "Joshua Mun <joshmun23@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ujs": "~1.0.1"
+  }
+}

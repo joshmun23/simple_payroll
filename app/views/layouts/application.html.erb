@@ -2,12 +2,17 @@
 <html>
 <head>
   <title>SimplePayroll</title>
+<<<<<<< HEAD
+=======
+  <%= javascript_include_tag 'jquery_ujs' %>
+>>>>>>> 5e1201181a922d761a1f2071058c0c200fc7ea7e
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+<%= debug(params) if Rails.env.development? %>
 
 </body>
 </html>
