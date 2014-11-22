@@ -30,7 +30,7 @@
         <td><%= paycheck.net_wages %></td>
         <td><%= link_to 'Show', paycheck %></td>
         <td><%= link_to 'Edit', edit_paycheck_path(paycheck) %></td>
-        <td><%= link_to 'Destroy', paycheck, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', paycheck, :method => :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
