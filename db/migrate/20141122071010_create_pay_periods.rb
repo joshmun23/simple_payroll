@@ -9,8 +9,6 @@ class CreatePayPeriods < ActiveRecord::Migration
       t.float :net_wages
       t.string :name
       t.integer :employee_id
-
-      t.timestamps
     end
   end
 end

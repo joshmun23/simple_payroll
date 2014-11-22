@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141121000438) do
+ActiveRecord::Schema.define(version: 20141122071010) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,16 +29,14 @@ ActiveRecord::Schema.define(version: 20141121000438) do
   end
 
   create_table "pay_periods", force: true do |t|
-    t.date     "start_date"
-    t.date     "end_date"
-    t.float    "total_hours_worked"
-    t.float    "gross_wages"
-    t.float    "total_deductions"
-    t.float    "net_wages"
-    t.string   "name"
-    t.integer  "employee_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.date    "start_date"
+    t.date    "end_date"
+    t.float   "total_hours_worked"
+    t.float   "gross_wages"
+    t.float   "total_deductions"
+    t.float   "net_wages"
+    t.string  "name"
+    t.integer "employee_id"
   end
 
 end
