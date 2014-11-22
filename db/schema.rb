@@ -11,11 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20141122071010) do
-=======
-ActiveRecord::Schema.define(version: 20141121221032) do
->>>>>>> 5e1201181a922d761a1f2071058c0c200fc7ea7e
+ActiveRecord::Schema.define(version: 20141122072341) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,32 +26,6 @@ ActiveRecord::Schema.define(version: 20141121221032) do
     t.integer  "claims"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-<<<<<<< HEAD
-  create_table "pay_periods", force: true do |t|
-    t.date    "start_date"
-    t.date    "end_date"
-    t.float   "total_hours_worked"
-    t.float   "gross_wages"
-    t.float   "total_deductions"
-    t.float   "net_wages"
-    t.string  "name"
-    t.integer "employee_id"
-=======
-  create_table "paychecks", force: true do |t|
-    t.integer  "employee_id"
-    t.string   "name"
-    t.string   "paycheck"
-    t.date     "start_date"
-    t.date     "end_date"
-    t.float    "total_hours_worked"
-    t.float    "gross_wages"
-    t.float    "total_deductions"
-    t.float    "net_wages"
-    t.datetime "created_at"
-    t.datetime "updated_at"
->>>>>>> 5e1201181a922d761a1f2071058c0c200fc7ea7e
   end
 
 end
